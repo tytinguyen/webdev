@@ -1,0 +1,65 @@
+body {
+    background: url(background.jpg);
+    background-size: 100%;
+    font-family: sans-serif;
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 200%;
+    text-align: center;
+}
+h2, h3, h4{
+    color: white;
+    font-family:  sans-serif;
+    font-size: 150%;
+    text-align: center;
+}
+a {
+    color: blue;
+
+}
+a:hover{
+    color: red;
+}
+#headshot{
+    text-align:  center;
+}
+tr:nth-child(even){
+    background: black;
+    color: white;
+    border: 0;
+}
+tr:nth-child(odd){
+    background: white;
+    color: black;
+    border: 0;
+}
+table {
+    padding: 100px;
+    width: 85%;
+    border: 0;
+    text-align: center;
+}
+ul, ol {
+    color: white;
+}
+#quote{
+    padding: 50px;
+    margin: auto;
+    color: white;
+    text-align: center;
+    height: 200px;
+    width: 500px;
+}
+#quoteAuthor{
+    text-align: right;
+}
+span{
+    font-weight: bold;
+    color: red;
+}
+
+
+
+
